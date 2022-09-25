@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>solutions2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Srisakdi&display=swap" rel="stylesheet">
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="C:\Users\Michele\Pictures\BS Logo written.jpg" width="200px" alt="Brizzimo Solutions">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Solutions</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+
+
+	<!--
+	<select>
+		<option>Default Sorting</option>
+		<option>Sort By Category</option>
+	</select> -->
+	<div class="single-product">
+		<div class="plow">
+			<div class="col-2">
+				<button class="leftButton"></button>
+				<img src="C:\Users\Michele\Pictures\headass.jpg" width="100%" id="ProductImg">
+				<button class="rightButton"></button>
+			<div class="small-img-row">
+				<div class="small-img-col">
+					<img src="C:\Users\Michele\Pictures\headass.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Users\Michele\Pictures\cow.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Users\Michele\Pictures\cow.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Users\Michele\Pictures\cow.jpg" class="small-img">
+				</div>
+			</div>
+			</div>
+			<div class="col-2">
+				<h1>Product Name</h1>
+				<p>Price</p>
+				<p>Descriptionz</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- script for product gallery-->
+
+<script type="text/javascript">
+	var ProductImg = document.getElementById('ProductImg');
+	var SmallImg = document.getElementsByClassName('small-img');
+		SmallImg[0].onclick = function()
+		{
+			ProductImg.src = SmallImg[0].src;
+		}
+		SmallImg[1].onclick = function()
+		{
+			ProductImg.src = SmallImg[1].src;
+		}
+		SmallImg[2].onclick = function()
+		{
+			ProductImg.src = SmallImg[2].src;
+		}
+		SmallImg[3].onclick = function()
+		{
+			ProductImg.src = SmallImg[3].src;
+		}
+
+</script>
+
+
+
+</body>
+
+</html>

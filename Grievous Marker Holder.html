@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grievous Marker Holder</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Srisakdi&display=swap" rel="stylesheet">
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="C:\Users\Michele\Pictures\BS Logo written.jpg" width="200px" alt="Brizzimo Solutions">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Solutions</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+
+
+	<!--
+	<select>
+		<option>Default Sorting</option>
+		<option>Sort By Category</option>
+	</select> -->
+	<div class="single-product">
+		<div class="plow">
+			<div class="col-2">
+				<img src="C:\Brizzimo\Photos\Grievous\GF.jpg" width="100%" id="ProductImg">
+			<div class="small-img-row">
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Grievous\GF.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Grievous\GR.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Grievous\GB.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Grievous\GL.jpg" class="small-img">
+				</div>
+			</div>
+			</div>
+			<div class="col-2">
+				<h1>General Grievous Expo Marker Holder</h1>
+				<br><br><!--<p>Price</p>-->
+				<p>I made this mainly because I thought it would be neat to have, but also because my whiteboard at work doesn't have a tray to hold whiteboard essentials like markers. I like Star Wars and the only character who wields 4 sabers other than Pong Krell (sorta) is General Grievous.<br><br>
+					The statue itself was sourced from GrabCad and 3D printed, but I did have to make some custom arms that would attach to the body and could hold the markers at the correct position. The cape also made Grievous a little back heavy and would fall over so I machined out a base with a block to hold him up. You can't see it but there is a counterbored hole in the base to allow an M4 bolt to go through the black support and into a threaded insert melted into the cape to make it all a little more secure.
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<br><br><br>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>See something you like?<br>
+					Have something you'd like made?<br>
+				Feel free to reach out on the contact page!</h3>
+			</div>
+			<div class="footer-col-3">
+				<h3>More Links!</h3>
+				<ul>
+					<li><a href="" id="homepage">Home Page</a></li><br>	
+					<li><a href="" id="solpage">SolutionsPage</a></li><br>	
+					<li><a href="" id="contact">Contact Page</a></li><br>
+					<li><a href="" id="contact">Instagram</a></li>	<!-- link to brizzimo.solutions on instagram -->
+				</ul>
+			</div>
+			<div class="footer-col-2">
+				<img src="C:\Users\Michele\Pictures\BS Logo written black.jpg" width="200px" alt="Brizzimo Solutions">
+				<h3></h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- script for product gallery-->
+
+<script type="text/javascript">
+	var ProductImg = document.getElementById('ProductImg');
+	var SmallImg = document.getElementsByClassName('small-img');
+		SmallImg[0].onclick = function()
+		{
+			ProductImg.src = SmallImg[0].src;
+		}
+		SmallImg[1].onclick = function()
+		{
+			ProductImg.src = SmallImg[1].src;
+		}
+		SmallImg[2].onclick = function()
+		{
+			ProductImg.src = SmallImg[2].src;
+		}
+		SmallImg[3].onclick = function()
+		{
+			ProductImg.src = SmallImg[3].src;
+		}
+
+</script>
+
+
+
+</body>
+
+</html>

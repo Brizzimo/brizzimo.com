@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Derailleur Bottle Opener</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Srisakdi&display=swap" rel="stylesheet">
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="C:\Users\Michele\Pictures\BS Logo written.jpg" width="200px" alt="Brizzimo Solutions">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Solutions</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+
+
+	<!--
+	<select>
+		<option>Default Sorting</option>
+		<option>Sort By Category</option>
+	</select> -->
+	<div class="single-product">
+		<div class="plow">
+			<div class="col-2">
+				<img src="C:\Brizzimo\Photos\Opener\BOI.jpg" width="100%" id="ProductImg">
+			<div class="small-img-row">
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Opener\BOI.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Opener\BOF.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Opener\BOL.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\Opener\BOB.jpg" class="small-img">
+				</div>
+			</div>
+			</div>
+			<div class="col-2">
+				<h1>Derailleur Mount Bottle Opener</h1>
+				<br><br><!--<p>Price</p>-->
+				<p>This is a pretty simple bottle opener that can be mounted on any bike that has a front derailleur mount. I made this for one of my friends who did a 1x conversion and wanted something functional to attach to the mount where the derailleur used to be.<br><br>
+					The base of the opener is 3D printed and the opener itself is a generic Amazon bottle opener plate that was bent on a sheet metal brake (bender) and screwed into the base. I also incorporated a magnet in the opener so you don't lose any bottle caps and accidentally litter.
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<br><br><br>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>See something you like?<br>
+					Have something you'd like made?<br>
+				Feel free to reach out on the contact page!</h3>
+			</div>
+			<div class="footer-col-3">
+				<h3>More Links!</h3>
+				<ul>
+					<li><a href="" id="homepage">Home Page</a></li><br>	
+					<li><a href="" id="solpage">SolutionsPage</a></li><br>	
+					<li><a href="" id="contact">Contact Page</a></li><br>
+					<li><a href="" id="contact">Instagram</a></li>	<!-- link to brizzimo.solutions on instagram -->
+				</ul>
+			</div>
+			<div class="footer-col-2">
+				<img src="C:\Users\Michele\Pictures\BS Logo written black.jpg" width="200px" alt="Brizzimo Solutions">
+				<h3></h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- script for product gallery-->
+
+<script type="text/javascript">
+	var ProductImg = document.getElementById('ProductImg');
+	var SmallImg = document.getElementsByClassName('small-img');
+		SmallImg[0].onclick = function()
+		{
+			ProductImg.src = SmallImg[0].src;
+		}
+		SmallImg[1].onclick = function()
+		{
+			ProductImg.src = SmallImg[1].src;
+		}
+		SmallImg[2].onclick = function()
+		{
+			ProductImg.src = SmallImg[2].src;
+		}
+		SmallImg[3].onclick = function()
+		{
+			ProductImg.src = SmallImg[3].src;
+		}
+
+</script>
+
+
+
+</body>
+
+</html>

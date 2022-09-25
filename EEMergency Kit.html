@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EE-Mergency Kit</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Srisakdi&display=swap" rel="stylesheet">
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="C:\Users\Michele\Pictures\BS Logo written.jpg" width="200px" alt="Brizzimo Solutions">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Solutions</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+
+
+	<!--
+	<select>
+		<option>Default Sorting</option>
+		<option>Sort By Category</option>
+	</select> -->
+	<div class="single-product">
+		<div class="plow">
+			<div class="col-2">
+				<img src="C:\Brizzimo\Photos\EEMergency Kit\EE1.jpg" width="100%" id="ProductImg">
+			<div class="small-img-row">
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\EEMergency Kit\EE1.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\EEMergency Kit\EE2.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\EEMergency Kit\EE3.jpg" class="small-img">
+				</div>
+				<div class="small-img-col">
+					<img src="C:\Brizzimo\Photos\EEMergency Kit\EE4.jpg" class="small-img">
+				</div>
+			</div>
+			</div>
+			<div class="col-2">
+				<h1>EE-Mergency Kit</h1>
+				<br><br></b><!--	<p>Price</p>	-->
+				<p>This is a kit I made for an electrical engineering friend. I picked up this carrying pouch at a thrift store and raided my mother's sewing supplies for everything else.<br><br>
+					The pockets on the front and back were done up with a sewing machine to look neat and get fancy stitch patterns, and then were sewn onto the pouch by hand. The front pocket has a velcro strip and the rear pocket has a zipper for safe and secure storage.<br><br>
+					The internal stretchy fabric was custom laid out and attached by hand to accomodate a portable variable power supply, triangular ruler, pencil, wire strippers, and a roll of electrical tape. The electrical tape is held in by a 3-piece wooden rod made poplar, maple, and padauk to get the colors. The rod was cut hot dog style and has an elastic and notches to tightly secure the roll. The lettering on the front was also done by hand if you couldn't tell (first time).
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+<!-- Footer -->
+
+	<br><br><br>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>See something you like?<br>
+					Have something you'd like made?<br>
+				Feel free to reach out on the contact page!</h3>
+			</div>
+			<div class="footer-col-3">
+				<h3>More Links!</h3>
+				<ul>
+					<li><a href="" id="homepage">Home Page</a></li><br>	
+					<li><a href="" id="solpage">SolutionsPage</a></li><br>	
+					<li><a href="" id="contact">Contact Page</a></li><br>
+					<li><a href="" id="contact">Instagram</a></li>	<!-- link to brizzimo.solutions on instagram -->
+				</ul>
+			</div>
+			<div class="footer-col-2">
+				<img src="C:\Users\Michele\Pictures\BS Logo written black.jpg" width="200px" alt="Brizzimo Solutions">
+				<h3></h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- script for product gallery-->
+
+<script type="text/javascript">
+	var ProductImg = document.getElementById('ProductImg');
+	var SmallImg = document.getElementsByClassName('small-img');
+		SmallImg[0].onclick = function()
+		{
+			ProductImg.src = SmallImg[0].src;
+		}
+		SmallImg[1].onclick = function()
+		{
+			ProductImg.src = SmallImg[1].src;
+		}
+		SmallImg[2].onclick = function()
+		{
+			ProductImg.src = SmallImg[2].src;
+		}
+		SmallImg[3].onclick = function()
+		{
+			ProductImg.src = SmallImg[3].src;
+		}
+
+</script>
+
+
+
+</body>
+
+</html>
