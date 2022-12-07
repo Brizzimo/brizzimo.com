@@ -12,7 +12,7 @@
 <div class="container">
 	<div class="navbar">
 		<div class="logo">
-			<img src="C:\Users\Michele\Pictures\BS Logo written.jpg" width="200px" alt="Brizzimo Solutions">
+			<img src="C:\Users\Michele\Pictures\BS Logo written.jpg" width="200px" alt="Brizzimo Solutions" id="homepage">
 	</div>
 <nav>
 	<ul>
@@ -75,10 +75,10 @@
 			<div class="footer-col-3">
 				<h3>More Links!</h3>
 				<ul>
-					<li><a href="" id="homepage">Home Page</a></li><br>	
-					<li><a href="" id="solpage">SolutionsPage</a></li><br>	
-					<li><a href="" id="contact">Contact Page</a></li><br>
-					<li><a href="" id="contact">Instagram</a></li>	<!-- link to brizzimo.solutions on instagram -->
+					<li><a href="http://www.brizzimo.com" id="homepage">Home</a></li><br>
+					<li><a href="http://www.brizzimo.com/solutions" id="solpage">Solutions</a></li><br>
+					<li><a href="http://www.brizzimo.com/contact" id="contact">Contact</a></li><br>
+					<li><a href="https://www.instagram.com/brizzimo.solutions" id="insta">Instagram</a></li>	<!-- link to brizzimo.solutions on instagram -->
 				</ul>
 			</div>
 			<div class="footer-col-2">
@@ -88,5 +88,21 @@
 		</div>
 	</div>
 </div>
+
 </body>
+
+<script type="text/javascript">
+    document.getElementById("homepage").onclick = function () {
+        location.href = "www.brizzimo.com";
+    };
+    document.getElementById("solpage").onclick = function () {
+        location.href = "www.brizzimo.com/solutions";
+    };
+    document.getElementById("contact").onclick = function () {
+        location.href = "www.brizzimo.com/contact";
+    };
+    document.getElementById("insta").onclick = function () {
+        location.href = "https://www.instagram.com/brizzimo.solutions";
+    };
+</script>
 </html>
