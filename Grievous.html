@@ -36,19 +36,19 @@
 	<div class="single-product">
 		<div class="plow">
 			<div class="col-2">
-				<img src="C:\Brizzimo\Photos\Grievous\GF.jpg" width="100%" id="ProductImg">
+				<img src="Grievous\GF.jpg" width="100%" id="ProductImg">
 			<div class="small-img-row">
 				<div class="small-img-col">
-					<img src="C:\Brizzimo\Photos\Grievous\GF.jpg" class="small-img">
+					<img src="Grievous\GF.jpg" class="small-img">
 				</div>
 				<div class="small-img-col">
-					<img src="C:\Brizzimo\Photos\Grievous\GR.jpg" class="small-img">
+					<img src="Grievous\GR.jpg" class="small-img">
 				</div>
 				<div class="small-img-col">
-					<img src="C:\Brizzimo\Photos\Grievous\GB.jpg" class="small-img">
+					<img src="Grievous\GB.jpg" class="small-img">
 				</div>
 				<div class="small-img-col">
-					<img src="C:\Brizzimo\Photos\Grievous\GL.jpg" class="small-img">
+					<img src="Grievous\GL.jpg" class="small-img">
 				</div>
 			</div>
 			</div>
@@ -92,7 +92,30 @@
 			</div>
 		</div>
 	</div>
+	<!-- script for product gallery-->
 
+<script type="text/javascript">
+	var ProductImg = document.getElementById('ProductImg');
+	var SmallImg = document.getElementsByClassName('small-img');
+		SmallImg[0].onclick = function()
+		{
+			ProductImg.src = SmallImg[0].src;
+		}
+		SmallImg[1].onclick = function()
+		{
+			ProductImg.src = SmallImg[1].src;
+		}
+		SmallImg[2].onclick = function()
+		{
+			ProductImg.src = SmallImg[2].src;
+		}
+		SmallImg[3].onclick = function()
+		{
+			ProductImg.src = SmallImg[3].src;
+		}
+
+</script>
+		
 	</body>
 
 </html>
